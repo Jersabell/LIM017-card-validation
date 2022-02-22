@@ -3,12 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <main class="Pagina-Inicial" id="main">
+      <img class="Pagina-Inicial__imagen" src="north2.png">
+      <!-- <p class="Pagina-Inicial__p">Bienvenido(a) NORTTHBANK, tu banco de confianza. <br>
+        Pensando en una mejoría para ti nos renovamos digitalmente para que puedas interactuar con nosotros mediante nuestra web.</p> -->
+      <ul class="Pagina-Inicial__ul">
+        <li class="Pagina-Inicial__li"><button class="Pagina-Inicial__Buttons Pagina-Inicial__Inicio">Inicio</button></li>
+        <li class="Pagina-Inicial__li"><button class="Pagina-Inicial__Buttons Pagina-Inicial__Nosotros">Nosotros</button></li>
+        <li class="Pagina-Inicial__li"><button class="Pagina-Inicial__Buttons Pagina-Inicial__Productos">Productos</button></li>
+        <li class="Pagina-Inicial__li"><button class="Pagina-Inicial__Buttons Pagina-Inicial__BancaporInternet" id="botonbancaInternet">Banca Internet</button></li>
+        <li class="Pagina-Inicial__li"><button class="Pagina-Inicial__Buttons Pagina-Inicial__AyudayContacto">Ayuda y contacto</button></li>
+      </ul>
+
+    </main> 
+    <div class="BancaporInternet-I" id="BancaporInternet" hidden="">
+        <div class="BancaporInternet" >
+            <h3 class="BancaporInternet__InfoH3">BANCA INTERNET</h3>
+            <p class="BancaporInternet__Info">Ingresa tu numero de tarjeta, si es válido ingresa tu clave para acceder a tu cuenta.</p>
+            <p class="BancaporInternet__p">Número de tarjeta:</p>
+            <input class="BancaporInternet__input-numCard" type="number" id="numCard" placeholder="Ingresar número"><br>
+            <input class="BancaporInternet__input-sendButton" type="button" id="sendBotton" value="Validar">
+        </div>
+  </div>
+
+  <div class="BancaporInternet-resultado-I" id="resultadoBancaporInternet" hidden="">
+    <div class="BancaporInternet-resultado">
+      <p class="BancaporInternet-resultado__maskify" id="encriptado"></p>
+      <p class="BancaporInternet-resultado__validator" id="resultado"></p>
+      <ul class="BancaporInternet-resultado__ul">
+        <li class="BancaporInternet-resultado-ul__li"><form><button hidden="" class="BancaporInternet-resultado__buttons" id="continuarCuenta">Continuar a Cuenta</button></form></li>
+        <li class="BancaporInternet-resultado-ul__li"><button hidden="" class="BancaporInternet-resultado__buttons" id="again">Intentar nuevamente</button></li>
+      </ul>
+    </div>
+  </div>
+    <footer class="footer"> 
+        <p class="footer__p">©Copyrigth 2022 - Todos los derechos reservados.</p>
+        <ul class="footer__ul">
+          <li class="footer-ul__li"><a class="footer-ul-li__a" href="https://www.google.com/">Facebook</a></li>
+          <li class="footer-ul__li"><a class="footer-ul-li__a" href="">Instagram</a></li>
+          <li class="footer-ul__li"><a class="footer-ul-li__a" href="">Youtube</a></li>
+        </ul>
+      
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

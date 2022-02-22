@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Serif', sans-serif;
+    list-style: none 
+}
+
+/* ESTILO DEL BODY */
+body{
+    background-image: url("playa2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;    
+}
+
+/* ESTILO DEL MAIN */
+.Pagina-Inicial{
+    width: 1200px;
+    height: 560px;
+    margin: auto;
+    text-align: center;
+    ;
+}
+    .Pagina-Inicial__imagen{
+        margin-top: 50px;
+        width: 1200px;
+        height: auto;
+        overflow: hidden;
+        margin-right: 50%;
+        background-size: contain;
+    }
+
+    .Pagina-Inicial__ul{
+        display: inline-flex;
+    }
+
+            .Pagina-Inicial__Buttons:hover{
+                background-color: rgb(222, 245, 13);
+            }
+            .Pagina-Inicial__Buttons{
+                display: flex;
+                justify-content: space-around;
+                height: 120px;
+                width: 180px;
+                padding: 40px;
+                margin-top: 50px;
+                margin-left: 12px;
+                margin-right: 12px;
+                border-radius: 18px;
+                border: 4px;
+                color: rgb(41, 39, 39);
+                font-weight: 0;
+                font-size: 18px;
+                text-align: center;
+            }
+
+/* HEADER */
+
+/* ESTILO DEL DIV BANCA POR INTERNET */
+.BancaporInternet-I{
+    width: 1200px;
+    height: 560px;
+    margin: auto;
+    background-image: url("north2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 800px 150px ;
+    background-position-x: right;
+    background-position-y: 60px;
+}
+        .BancaporInternet{
+            display: inline-block;
+            height: 400px;
+            width: 300px;
+            margin-top: 50px;
+            margin-left: 100px;
+            border-radius: 20px;   
+            background-color: rgba(99, 145, 141, 0.37);
+            text-align: center;
+        }
+                .BancaporInternet__InfoH3{
+                    margin-top: 20px;
+                    font-size: small;
+                }
+                .BancaporInternet__Info{
+                    margin-top: 15px;
+                    margin-left: 25px;
+                    width: 250px;
+                    font-size: small;
+                }
+
+                .BancaporInternet__p{
+                    display: block;
+                    line-height: 2;
+                    margin-top: 40px;
+                }
+
+                .BancaporInternet__input-numCard{
+                    line-height: 2;
+                    font-size: medium;
+                }
+
+                .BancaporInternet__input-sendButton{
+                    margin-top: 50px;
+                    font-size: medium;
+                    padding: 10px;
+                }
+                .BancaporInternet__input-sendButton:hover{
+                    background-color: rgb(222, 245, 13);
+                    border: 0ch;
+                }
+    
+/* ESTILO DEL DIV RESULTADO DE BANCA DE INTERNET */
+
+.BancaporInternet-resultado-I{
+    width: 1200px;
+    height: 560px;
+    margin: auto;
+    background-image: url("north2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 800px 150px ;
+    background-position-x: right;
+    background-position-y: 60px;
+}
+
+        .BancaporInternet-resultado{
+            display: inline-block;
+            height: 400px;
+            width: 300px;
+            margin-top: 50px;
+            margin-left: 100px;
+            border-radius: 20px;   
+            background-color: rgba(99, 145, 141, 0.37);
+            text-align: center;
+        }
+
+            .BancaporInternet-resultado__maskify{
+                display: block;
+                margin-top: 100px;
+                font-size: large;
+                text-decoration-color: rgb(41, 39, 39);
+            }
+            .BancaporInternet-resultado__validator{
+                
+                display: inline;
+                line-height: 2.5;
+                color: rgb(37, 0, 201);
+                margin-top: 15px;
+                font-size: medium;
+                font-weight: bold;
+            }
+            .BancaporInternet-resultado__ul{
+                display: inline-flex;
+                margin-top: 70px;
+            }
+            .BancaporInternet-resultado__buttons{
+                font-size: medium;
+                padding: 10px;
+            }
+            .BancaporInternet-resultado__buttons:hover{
+                background-color: rgb(222, 245, 13);
+                border: 0ch;
+            }
+
+            
+ /* ESTILO DEL FOOTER */
+.footer{
+    text-align: center;
+    width: 1200px;
+    height: 40px;
+    background-attachment: scroll;
+    position:static;
+    margin:auto;
+    font-size: smaller;
+}
+        
+        .footer__p{
+            font-weight: bold;
+            display: inline-flex;
+            float: left;
+            margin-left: 100px;
+            margin-top: 8px;
+            color: rgb(41, 39, 39);
+        }
+
+        .footer__ul{
+            display: inline-flex;
+            float: right;
+            margin-right: 150px;
+        }
+
+            .footer-ul__li{
+                margin-top: 8px;
+                margin-right: 30px;
+                
+            }
+
+                .footer-ul-li__a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: rgb(41, 39, 39);                   
+                }
+
