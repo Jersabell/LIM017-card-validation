@@ -29,6 +29,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
+
 ## 2. Resumen del proyecto
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
@@ -225,9 +226,9 @@ Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+* Quiénes son los principales usuarios de producto. 
+* Cuáles son los objetivos de estos usuarios en relación con tu producto. 
+* Cómo crees que el producto que estás creando está resolviendo sus problemas. 
 
 ### Interfaz de usuario (UI)
 
@@ -260,8 +261,8 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* Un título con el nombre de tu proyecto:
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto
 * La imagen final de tu proyecto.
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
@@ -543,3 +544,21 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 * [ ] Implementa `validator.getIssuer`.
 * [ ] Interfaz muestra la franquicia de la tarjeta
+
+<!-- README DEL PROYECTO -->
+
+* **Título:** Entidad Bancaria NorthBank – Banca por Internet
+* **Resumen:** El proyecto ofrece a los usuarios de la entidad Bancaria NorthBank una Banca Internet, también brinda información a personas que desean conocer los productos ofrecidos por la misma.
+* **Imagen final:** (Agregar las dos imágenes)
+* **Investigación UX:**
+    1. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+    El proyecto está diseñado pensando en personas que pertenecen o ya tienen conocimiento sobre la entidad bancaria denominada NorthBank. Básicamente la entidad les ofrecería sus productos como créditos, hipotecas, tarjetas, seguros entre otras cosas. Y para los usuarios que han adquirido tarjetas se ofrece la Banca Internet, en la que primero tienen que validar su número de tarjeta, y posterior a ello podrían ingresar su clave y/o datos de seguridad que les permita ingresar a su cuenta.
+    2. Explicar cómo el producto soluciona los problemas / necesidades de dichos usuarios.
+    Al contar con una Banca por Internet el usuario ya no necesita ir al Banco personalmente, solo basta con que tenga un dispositivo y acceso a internet.
+    3. Foto del primer prototipo en papel.
+    4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+        * Agregar contenido dentro de los botones de la página inicial: Nosotros, Productos, Ayuda y contacto.
+        * Agregar un botón de retornar a la página inicial.
+        * Agregar un mensaje de bienbenida.
+    5. Imagen del prototipo final.
+
