@@ -554,9 +554,9 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
     ![Image Inicio](https://github.com/Jersabell/LIM017-card-validation/blob/main/test/NorthBankInicio.png)
     ![Image Banca Internet](https://github.com/Jersabell/LIM017-card-validation/blob/main/test/BancaInternet.png)
 * **Investigación UX:**
-    1. Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+    1. Usuarios y los objetivos en relación con el producto.
     El proyecto está diseñado pensando en personas que pertenecen o ya tienen conocimiento sobre la entidad bancaria denominada NorthBank. Básicamente la entidad les ofrecería sus productos como créditos, hipotecas, tarjetas, seguros entre otras cosas. Y para los usuarios que han adquirido tarjetas se ofrece la Banca Internet, en la que primero tienen que validar su número de tarjeta, y posterior a ello podrían ingresar su clave y/o datos de seguridad que les permita ingresar a su cuenta.
-    2. Explicar cómo el producto soluciona los problemas / necesidades de dichos usuarios.
+    2. ¿Cómo el producto soluciona los problemas/necesidades de dichos usuarios?
     Al contar con una Banca por Internet el usuario ya no necesita ir al Banco personalmente, solo basta con que tenga un dispositivo y acceso a internet.
     3. Foto del primer prototipo en papel.
         ![Image Prototipo Inicio](https://github.com/Jersabell/LIM017-card-validation/blob/main/test/Prototipo%20Inicio.png)
@@ -564,6 +564,6 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
     4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
         * Agregar contenido dentro de los botones de la página inicial: Nosotros, Productos, Ayuda y contacto.
         * Agregar un botón de retornar a la página inicial.
-        * Agregar un mensaje de bienbenida.
+        * Agregar un mensaje de bienvenida.
     5. Imagen del prototipo final.
 
