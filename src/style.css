@@ -35,7 +35,6 @@ body{
     .Pagina-Inicial__ul{
         display: inline-flex;
     }
-
             .Pagina-Inicial__Buttons:hover{
                 background-color: rgb(222, 245, 13);
             }
@@ -143,11 +142,19 @@ body{
                 font-size: large;
                 text-decoration-color: rgb(41, 39, 39);
             }
-            .BancaporInternet-resultado__validator{
+            .BancaporInternet-resultado__validatorT{
                 
-                display: inline;
+                display: inline-block;
                 line-height: 2.5;
                 color: rgb(37, 0, 201);
+                margin-top: 15px;
+                font-size: medium;
+                font-weight: bold;
+            }
+            .BancaporInternet-resultado__validatorF{
+                display: inline-block;
+                line-height: 2.5;
+                color: rgb(255, 8, 8);
                 margin-top: 15px;
                 font-size: medium;
                 font-weight: bold;

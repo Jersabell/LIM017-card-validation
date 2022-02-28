@@ -7,18 +7,17 @@ import validator from "./validator.js";
     const botonbancaInternet = document.querySelector("#botonbancaInternet");
     const sendBotton = document.getElementById("sendBotton");
     const divdeUltimaPagina = document.getElementById("resultadoBancaporInternet");
-    const resultadodeIsValid= document.getElementById("resultado");
+    const resultadodeIsValidT= document.getElementById("resultado-verdadero");
+    const resultadodeIsValidFNumb= document.getElementById("resultado-falso-numero")
+    const resultadodeIsValidF= document.getElementById("resultado-falso");
     const numeroEncriptado = document.getElementById("encriptado");
     const againCard = document.getElementById("again");
     const continuarCuenta = document.getElementById("continuarCuenta");
-    const inicioHeader= document.getElementById("irInicio")
-
 
 // Clickear el boton de Banca por Internet
     botonbancaInternet.addEventListener("click", () => {
         main.setAttribute("hidden", true);
         divdeBancaInternet.removeAttribute("hidden");
-        inicioHeader.removeAttribute("hidden")
       })
 
 // Función para enviar el número de tarjeta
@@ -35,20 +34,20 @@ import validator from "./validator.js";
             alert("El número de tarjeta es de 16 caracteres como máximo");
           } 
        else {
-            divdeBancaInternet.setAttribute("hidden",true)
+            divdeBancaInternet.setAttribute("hidden","")
             divdeUltimaPagina.removeAttribute("hidden");
             
             if (validator.isValid(numberCard)){
-                numeroEncriptado.innerHTML= validator.maskify(numberCard) 
-                resultadodeIsValid.innerHTML = "Número de Tarjeta Válido"
+                numeroEncriptado.innerHTML= validator.maskify(numberCard);
+                resultadodeIsValidT.innerHTML="Número de Tarjeta Válido"
                 continuarCuenta.removeAttribute("hidden")
-                againCard.setAttribute("hidden",false)
-
+                againCard.setAttribute("hidden", "")
                }
             else{
-                resultadodeIsValid.innerHTML = (numberCard + "<br>Número de tarjeta Inválido").fontcolor("#f80000")
+                resultadodeIsValidFNumb.textContent= numberCard
+                resultadodeIsValidF.textContent= "Número de Tarjeta Inválido"
                 againCard.removeAttribute("hidden")
-                continuarCuenta.setAttribute("hidden", false)
+                continuarCuenta.setAttribute("hidden", "")
                }        
           }
        return numberCard.value;
@@ -57,15 +56,16 @@ import validator from "./validator.js";
 // Intentar nuevamente    
    againCard.addEventListener("click", () =>{
       let numberCard = document.getElementById("numCard")
-      divdeUltimaPagina.setAttribute("hidden", true)
+      resultadodeIsValidFNumb.textContent=""
+      resultadodeIsValidF.textContent=""
+      divdeUltimaPagina.setAttribute("hidden", "")
       divdeBancaInternet.removeAttribute("hidden")
       numberCard.value=""
-      
       });
 
 // clickear CONTINUAR A CUENTA
     continuarCuenta.addEventListener("click", ()=>{
-        window.history.back();
+        window.location.reload();
     })
 
 
